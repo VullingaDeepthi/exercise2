@@ -1,0 +1,11 @@
+function displayDetails(customer)
+{
+    var username=customer.username;
+    var age=customer.age;
+    console.log(`${username}:${age-1}`);
+}
+var customer={
+     username:"chetan",
+     age:22
+};
+displayDetails(customer)

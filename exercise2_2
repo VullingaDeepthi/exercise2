@@ -1,0 +1,17 @@
+function displayCustomers(customers)
+{
+     var username=customers.username;
+     var age=customers.age;
+     console.log(`${username}:${age}`);
+    }
+var customers=[
+    {
+        username:"chetan",
+        age:22
+    },
+    {
+        username:"pankaj",
+        age:223
+    }
+];
+displayCustomers(customers)
